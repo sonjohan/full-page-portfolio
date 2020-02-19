@@ -3,3 +3,8 @@
   width: 100%;
   z-index: 1;
 }
+
+.menuFont{
+  font-family: 'Catamaran', sans-serif;
+  font-weight: bold;
+}
