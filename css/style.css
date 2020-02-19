@@ -8,3 +8,11 @@
   font-family: 'Catamaran', sans-serif;
   font-weight: bold;
 }
+
+.homeIntro{
+  font-family: 'Fugaz One', cursive;
+  color: #fff;
+  text-align: right;
+  font-size: 3.6em;
+  /* height: 100vh; */
+}
