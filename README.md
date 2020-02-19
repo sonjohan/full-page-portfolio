@@ -1,2 +1,2 @@
 # full-page-portfolio
-Portfolio using fullPage.js
+Portfolio using html, css, js, fullPage.js, bootstrap, jquery.
