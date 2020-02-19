@@ -1,3 +1,53 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 575.98px) {
+  .homeIntro{
+    font-size: 40px;
+  }
+  .menuFont{
+    font-size: 5em;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .homeIntro{
+    font-size: 3em;
+  }
+  .menuFont{
+    font-size: 2em;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  .homeIntro{
+    font-size: 4.1em;
+  }
+  .menuFont{
+    font-size: 6vw;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+  .homeIntro{
+    font-size: 3.6em;
+  }
+  .menuFont{
+    font-size: 2em;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .homeIntro{
+    font-size: 3.6em;
+  }
+  .menuFont{
+    font-size: 2em;
+  }
+}
+
 .mainNavigation{
   position: fixed;
   width: 100%;
@@ -7,17 +57,16 @@
 .menuFont{
   font-family: 'Catamaran', sans-serif;
   font-weight: bold;
-  font-size: 1.8em;
+  /* font-size: 1.8em; */
 }
 
 .menuToggler{
-  color: #fff;
+  color: #fff
 }
 
 .homeIntro{
   font-family: 'Fugaz One', cursive;
   color: #fff;
   text-align: right;
-  font-size: 3.6em;
   /* height: 100vh; */
 }
