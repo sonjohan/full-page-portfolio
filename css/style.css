@@ -1,10 +1,10 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media only screen and (max-width: 575.98px) {
   .homeIntro{
-    font-size: 40px;
+    font-size: 8vw;
   }
   .menuFont{
-    font-size: 5em;
+    font-size: 7vw;
   }
 }
 
@@ -21,30 +21,30 @@
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .homeIntro{
-    font-size: 4.1em;
+    font-size: 6.6vw;
   }
   .menuFont{
-    font-size: 6vw;
+    font-size: 4vw;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
   .homeIntro{
-    font-size: 3.6em;
+    font-size: 4vw;
   }
   .menuFont{
-    font-size: 2em;
+    font-size: 3vw;
   }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .homeIntro{
-    font-size: 3.6em;
+    font-size: 3vw;
   }
   .menuFont{
-    font-size: 2em;
+    font-size: 1.7vw;
   }
 }
 
