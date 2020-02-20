@@ -66,7 +66,11 @@ var myFullpage = new fullpage('#fullpage', {
   //events
   onLeave: function(origin, destination, direction){},
   afterLoad: function(origin, destination, direction){},
-  afterRender: function(){},
+  afterRender: function(){
+    setInterval(function () {
+      fullpage_api.moveSlideRight();;
+    }, 4000);
+  },
   afterResize: function(width, height){},
   afterReBuild: function(){},
   afterResponsive: function(isResponsive){},
