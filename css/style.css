@@ -1,50 +1,51 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media only screen and (max-width: 575.98px) {
-  .homeIntro{
-    font-size: 8vw;
-  }
   .menuFont{
     font-size: 7vw;
+  }
+  .homeIntro{
+    font-size: 8vw;
   }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
-  .homeIntro{
-    font-size: 3em;
-  }
   .menuFont{
     font-size: 2em;
+  }
+  .homeIntro{
+    font-size: 3em;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
-  .homeIntro{
-    font-size: 6.6vw;
-  }
   .menuFont{
     font-size: 4vw;
+  }
+  .homeIntro{
+    font-size: 6.6vw;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
-  .homeIntro{
-    font-size: 4vw;
-  }
   .menuFont{
     font-size: 3vw;
   }
+  .homeIntro{
+    font-size: 4vw;
+  }
+
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .homeIntro{
-    font-size: 3vw;
-  }
   .menuFont{
     font-size: 1.7vw;
+  }
+  .homeIntro{
+    font-size: 3vw;
   }
 }
 
@@ -69,4 +70,16 @@
   color: #fff;
   text-align: right;
   /* height: 100vh; */
+}
+
+#homeSlide1{
+
+}
+
+#homeSlide2{
+  background-color: #FF57BD;
+}
+
+#homeSlide3{
+  background-color: #FFEC70;
 }
