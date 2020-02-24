@@ -1,9 +1,9 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media only screen and (max-width: 575.98px) {
   .menuFont{
-    font-size: 7vw;
+    font-size: 7vh;
   }
-  .homeIntro{
+  #homeSection h1{
     font-size: 8vw;
   }
 }
@@ -11,30 +11,30 @@
 /* Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 576px) and (max-width: 767.98px) {
   .menuFont{
-    font-size: 2em;
+    font-size: 4vh;
   }
-  .homeIntro{
-    font-size: 3em;
+  #homeSection h1{
+    font-size: 4vh;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .menuFont{
-    font-size: 4vw;
+    font-size: 3vh;
   }
-  .homeIntro{
-    font-size: 6.6vw;
+  #homeSection h1{
+    font-size: 5vh;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
   .menuFont{
-    font-size: 3vw;
+    font-size: 2vh;
   }
-  .homeIntro{
-    font-size: 4vw;
+  #homeSection h1{
+    font-size: 4vh;
   }
 
 }
@@ -42,10 +42,10 @@
 /* Extra large devices (large desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .menuFont{
-    font-size: 1.7vw;
+    font-size: 1.4vh;
   }
-  .homeIntro{
-    font-size: 3vw;
+  #homeSection h1{
+    font-size: 3vh;
   }
 }
 
@@ -53,6 +53,7 @@
   position: fixed;
   width: 100%;
   z-index: 1;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .menuFont{
@@ -62,10 +63,14 @@
 }
 
 .menuToggler{
-  color: #fff
+  color: #fff;
+  font-size: 1.4vh;
 }
 
-.homeIntro{
+/* General */
+
+/* Home */
+#homeSection h1{
   font-family: 'Fugaz One', cursive;
   color: #fff;
   text-align: right;
@@ -81,5 +86,38 @@
 }
 
 #homeSlide3{
-  background-color: #00D47B;
+  background-color: #BDDE00;
+}
+
+/* About */
+#aboutSection h1{
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 6vh;
+  color: #FF6F00;
+  padding: 1vh 0;
+  margin-bottom: 6vh;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+/* About Card */
+.aboutCard{
+  padding:0 40px;
+}
+
+.aboutCard h2{
+  text-align: left;
+  font-family: 'Fugaz One', cursive;
+  font-size: 3vh;
+  color: #fff;
+  padding-bottom: 0;
+}
+
+.aboutCard p{
+  text-align: left;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: bold;
+  font-size: 2vh;
+  color: #fff;
 }

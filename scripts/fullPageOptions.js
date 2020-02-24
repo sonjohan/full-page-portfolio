@@ -1,4 +1,5 @@
 var myFullpage = new fullpage('#fullpage', {
+  licenseKey: 'mW!hZ2A@e0',
   //Navigation
   menu: '#menu',
   lockAnchors: false,
