@@ -21,20 +21,20 @@
 /* Medium devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .menuFont{
-    font-size: 7vw;
+    font-size: 6vw;
   }
   #homeSection h1{
     font-size: 5vh;
   }
-}
+}m-3
 
 /* Large devices (desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
   .menuFont{
-    font-size: 1.42vw;
+    font-size: 1.2vw;
   }
   #homeSection h1{
-    font-size: 4vh;
+    font-size: 6vh;
   }
 
 }
@@ -45,7 +45,7 @@
     font-size: 1vw;
   }
   #homeSection h1{
-    font-size: 3vh;
+    font-size: 6vh;
   }
 }
 
@@ -74,7 +74,6 @@
   font-family: 'Fugaz One', cursive;
   color: #fff;
   text-align: right;
-  /* height: 100vh; */
 }
 
 #homeSlide1{
@@ -96,14 +95,17 @@
   font-size: 6vh;
   color: #FF6F00;
   padding: 1vh 0;
-  margin-bottom: 6vh;
+  margin-top:120px;
+  margin-bottom: 5vh;
   background-color: #fff;
   border-radius: 10px;
 }
 
 /* About Card */
 .aboutCard{
-  padding:0 40px;
+  padding:40px;
+  border: 1px solid #fff;
+  border-radius: 10px;
 }
 
 .aboutCard h2{
@@ -120,4 +122,33 @@
   font-weight: bold;
   font-size: 2vh;
   color: #fff;
+}
+
+/* Resume */
+#resumeSection h1{
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 5vh;
+  color: #2B3D40;
+  padding: 1vh 0;
+  margin-top: 120px;
+  margin-bottom: 6vh;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+#resumeSection h2{
+  text-align: left;
+  font-family: 'Fugaz One', cursive;
+  font-size: 3vh;
+  color: #fff;
+  padding-bottom: 0;
+}
+
+#resumeSection h3{
+  text-align: left;
+  font-family: 'Fugaz One', cursive;
+  font-size: 2vh;
+  color: #CCC;
+  padding-bottom: 0;
 }
