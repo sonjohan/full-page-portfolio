@@ -1,4 +1,3 @@
-<script>
 $(function()
 {
   function after_form_submitted(data)
@@ -61,4 +60,3 @@ $(function()
 
   });
 });
-</script>
